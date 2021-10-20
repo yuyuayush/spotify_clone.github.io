@@ -1,0 +1,79 @@
+input{
+    position: relative;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid white;
+    border-radius:10px ;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin-bottom: 10px;
+}
+input:hover{
+    background-color: rgb(251, 251, 21);
+    color: black;
+}
+input:focus{
+    background-color: rgb(255, 0, 43);
+    border: 1px solid red;
+}
+input.email{
+  background-image: url("img/Pashmina.ico"  );
+  background-size: 30px;
+  background-position: left;
+
+}
+input.url{
+    background-image: url("img/peach.ico"  );
+    background-size: 30px;
+    background-position: left;    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;}
+    input.comment{    text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+        background-image: url("img/shoes.ico"  );
+        background-size: 30px;
+        background-position: left;
+    }
+    fieldset{
+        width: 500px;
+        border: 4px double black;
+        border-radius: 12px ;
+        padding: 60px 10px 20px 1px;
+        text-align: left;
+        text-transform: uppercase;
+     
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    }
+    legend{
+        border: 6px solid rgb(0, 0, 0);
+        border-radius: 12px;
+        width: 200px;
+        height: 50px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+    }p{
+    display: flex;
+    justify-content: left;
+    text-align: left;

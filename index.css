@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    height: 15vh;
+    background-color: rgb(221, 16, 16);
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+
+
+
+}
+.left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 16vw;
+    list-style: none;
+    
+}
+.left ul li{
+    text-decoration: none;
+}
+
+.left ul a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0px 23px;
+    
+    
+
+}
+.left ul a:hover{
+    color:red;
+    
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24vw;
+
+
+}
+.btn{
+
+}
+
+    .logo{
+        display: flex;
+        position: absolute;
+        left: 5vw;
+        width: 32px;
+        top: 0vh;
+
+    }
+        .logo p{
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            ;
+            color:white;
+            font-weight: bold;
+
+        }
+
+
+.content{
+
+    height: 15vh;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(img/Capture.JPG);
+    background-image: url(img/Call-of-Duty-4.ico);
+    mix-blend-mode: color-dodge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px groove rgb(87, 86, 86);
+    background-image: url();
+}
+.cont-left{
+    width: 50%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont-left h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+
+}.cont-left p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #000;
+}
+.cont-right{
+
+
+}
+.cont-right img{ 
+    margin: -28px;
+    border: 2px groove  black;
+    border-radius: 12px;
+
+
+}
+.home-article  {
+    border-corner-image: url(img/Call-of-Duty-4.ico);
+    z-index: -10;
+
+    margin-bottom: -12px;
+    /* background-color: rgb(255, 0, 0); */
+
+
+}
+.home-articles{
+    display: flex;
+    padding: 26px 54px;
+    background-color: rgba(255, 255, 255, 0.233);
+    
+
+}
+.articles-content
+
+{margin-top: 16vh;
+    margin-left: 29px;
+    display: block;
+/* background-color: rgb(255, 255, 255); */
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+;
+font-weight: bolder;
+font-size: 12px;
+
+}
+.home-articles-img { }
+.footer{
+    height:6vh;
+    background-color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    display: flex;
+    font-size: 23px;
+    letter-spacing: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.year{
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+
+}

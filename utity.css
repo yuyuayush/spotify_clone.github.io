@@ -1,0 +1,67 @@
+.max-width-1{
+    max-width: 80VW;
+    height: 50vh;
+
+}.max-width-12{
+    max-width: 80VW;
+    
+
+}
+.max-width-2{
+
+    max-width: 32vw;
+    
+}
+.m-auto{
+    margin: auto;
+}
+#btn{
+    position: relative;
+    left: 18vw;
+    
+    bottom: 2.8vh;
+    border: 1px solid black;
+border-radius: 10px;
+font-size: 16px;
+font-family: initial;
+padding: 3px 22px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+
+}
+#btn:hover{ 
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+.form-input{
+    position: relative;
+    top: 2vh;
+    border: 1px solid black;
+border-radius: 8px;
+    padding: 5px 5px;
+    font-size: 16px;
+    margin: 0 14px;
+}.form-input:hover{
+    background-color: rgb(32, 31, 31);
+    color: rgb(255, 255, 255);
+
+}
+
+.navigation{
+    height: 7vh;
+    background-color: rgb(109, 99, 99);
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.font1{
+    font-family: var(--font1);
+
+}
+.font2{
+    font-family: var(--font2);
+
+
+}
